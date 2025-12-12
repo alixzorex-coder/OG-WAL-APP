@@ -1,6 +1,7 @@
 import { Plan, Wallpaper } from './types';
 
 export const WHATSAPP_GROUP_LINK = "https://chat.whatsapp.com/Gc68uxN9axHB4y1T2usxCu";
+export const YOUTUBE_CHANNEL_LINK = "https://www.youtube.com/@AiCartoon-LAND";
 export const SUPPORT_PHONE_JAZZCASH = "0326 4098088";
 export const SUPPORT_NAME_JAZZCASH = "Zeeshan Ali";
 export const SUPPORT_PHONE_EASYPAISA = "0303 0997911";
@@ -42,86 +43,5 @@ export const PLANS: Plan[] = [
   }
 ];
 
-// Generating some mock wallpapers
-export const MOCK_WALLPAPERS: Wallpaper[] = [
-  {
-    id: '1',
-    url: 'https://picsum.photos/400/800?random=1',
-    title: 'Neon City',
-    category: 'Abstract',
-    isPremium: false,
-    is3D: false,
-    likes: 1240,
-    tags: ['neon', 'city', 'night']
-  },
-  {
-    id: '2',
-    url: 'https://picsum.photos/400/800?random=2',
-    title: 'Misty Mountains',
-    category: 'Nature',
-    isPremium: true,
-    is3D: false,
-    likes: 3500,
-    tags: ['mountain', 'fog', 'nature']
-  },
-  {
-    id: '3',
-    url: 'https://picsum.photos/400/800?random=3',
-    title: 'Cyber Samurai',
-    category: 'Anime',
-    isPremium: true,
-    is3D: true,
-    likes: 8900,
-    tags: ['anime', 'cyberpunk', 'sword']
-  },
-  {
-    id: '4',
-    url: 'https://picsum.photos/400/800?random=4',
-    title: 'Deep Ocean',
-    category: 'Nature',
-    isPremium: false,
-    is3D: false,
-    likes: 450,
-    tags: ['water', 'blue', 'ocean']
-  },
-  {
-    id: '5',
-    url: 'https://picsum.photos/400/800?random=5',
-    title: 'Minimal Curves',
-    category: 'Minimal',
-    isPremium: true,
-    is3D: false,
-    likes: 2100,
-    tags: ['abstract', 'minimal', 'white']
-  },
-  {
-    id: '6',
-    url: 'https://picsum.photos/400/800?random=6',
-    title: 'Space Voyager',
-    category: 'Trending',
-    isPremium: true,
-    is3D: true,
-    likes: 5600,
-    tags: ['space', 'stars', 'planet']
-  },
-  {
-    id: '7',
-    url: 'https://picsum.photos/400/800?random=7',
-    title: 'Golden Dunes',
-    category: 'Nature',
-    isPremium: false,
-    is3D: false,
-    likes: 120,
-    tags: ['sand', 'desert', 'gold']
-  },
-  {
-    id: '8',
-    url: 'https://picsum.photos/400/800?random=8',
-    title: 'Red Sports Car',
-    category: 'Cars',
-    isPremium: true,
-    is3D: false,
-    likes: 9999,
-    tags: ['car', 'red', 'speed']
-  }
-];
+// We will generate wallpapers dynamically in App.tsx based on the date
+export const MOCK_WALLPAPERS: Wallpaper[] = []; 

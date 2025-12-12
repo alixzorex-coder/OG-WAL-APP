@@ -1,3 +1,4 @@
+
 export interface Wallpaper {
   id: string;
   url: string;
@@ -19,6 +20,8 @@ export interface Plan {
 }
 
 export interface UserProfile {
+  name: string;
+  bio: string;
   isPremium: boolean;
   premiumExpiry: number | null; // Timestamp
   favorites: string[]; // Wallpaper IDs
